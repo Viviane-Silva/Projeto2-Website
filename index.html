@@ -14,24 +14,77 @@
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <li><a href="#quemsomos">Quem Somos</a></li>
+                <li><a href="#atendimentos">Atendimentos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </div>
 
         <div class="main">
-            <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+            <div class="header" id="quemsomos">
+                <h2>Sobre nós</h2>
+                <p>Se você precisa de um Plano Pet completo, eficiente e econômico,
+                    na DeusAjudaQuemCedoMadruga você tem! Aqui todos os planos possuem cobertura completa para a
+                    realização de consultas,
+                    exames, cirurgias, internações, entre outros serviços veterinários.
+                </p>
             </div>
 
-            <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+            <div class="content" id="atendimentos">
+                <h2>Atendimentos</h2>
+                <p>Nossos horários de funcionamento:</p>
+                <table>
+                    <tr>
+                        <th>Segunda-feira</th>
+                        <th>Terça-feira</th>
+                        <th>Quarta-feira</th>
+                        <th>Quinta-feira</th>
+                        <th>Sexta-feira</th>
+                        <th>Sábado</th>
+                        <th>Plantões</th>
+                    </tr>
+                    <tr>
+                        <td>07:00 às 22:00</td>
+                        <td>07:00 às 22:00</td>
+                        <td>07:00 às 22:00</td>
+                        <td>07:00 às 22:00</td>
+                        <td>07:00 às 22:00</td>
+                        <td>07:00 às 22:00</td>
+                        <td>Domingos e Feriados</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - Plantão</td>
+                        <td>22:00 - Plantão</td>
+                        <td>22:00 - Plantão</td>
+                        <td>22:00 - Plantão</td>
+                        <td>22:00 - Plantão</td>
+                        <td>22:00 - Plantão</td>
+                        <td>Plantão 24h</td>
+                    </tr>
+                </table>
             </div>
 
-            <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+            <div class="footer" id="contatos">
+                <h2>Contato</h2>
+                <p>Dúvidas? Entre em contato pelos nossos canais de comunicação:</p>
+
+                <p><strong>Telefone</strong> (00)1111-2222
+                    <br>
+                    <strong>Email</strong> deusajudaquemcedomagruga@g.com.br
+                </p>
+
+                <form>
+                    <label for="fname">Nome Completo:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Telefone:</label><br>
+                    <input type="text" id="phone" name="phone"><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="lname">Mensagem:</label><br>
+                    <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>

@@ -24,22 +24,45 @@ body {
 
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(98, 97, 154);
     padding: 10px 20px 0px;
 }
 
+.menu ul li a,
+ul li {
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover,
+ul li:hover {
+    color: burlywood;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(176, 174, 255);
     min-height: 150px;
 }
 
 .content {
     background-color: white;
     min-height: 300px;
+}
+
+.header,
+.content,
+.footer {
     padding: 20px;
 }
 
+table tr th,
+table td {
+    border: solid 1px;
+}
+
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(176, 174, 255);
     min-height: 150px;
 }
